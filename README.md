@@ -1,2 +1,99 @@
-# Sweet-Bouquet
-A sweet bouquet is a charming and creative arrangement made of assorted chocolates, candies, or other sweet treats, designed to look like a beautiful flower bouquet. Instead of real flowers, it uses colorful wrappers, ribbons, and decorative sticks to form “blossoms” that are both eye-catching and delicious.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sugar Bliss Cakes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <h1>🎂 Sugar Bliss Cakes</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#cakes">Cakes</a></li>
+        <li><a href="#order">Book a Cake</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <h2>Custom Cakes for Every Celebration</h2>
+    <p>Freshly baked, beautifully decorated, and made with love.</p>
+    <a href="#order" class="btn">Order Now</a>
+  </section>
+
+  <!-- CAKES SECTION -->
+  <section class="cakes" id="cakes">
+    <h2>Our Best Cakes</h2>
+    <div class="cake-grid">
+      <div class="cake-card">
+        <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec" alt="Chocolate Cake">
+        <h3>Chocolate Delight</h3>
+        <p>Rich chocolate sponge layered with ganache.</p>
+        <span>$25</span>
+      </div>
+      <div class="cake-card">
+        <img src="https://images.unsplash.com/photo-1618213837799-16c2ebd9d3f3" alt="Strawberry Cake">
+        <h3>Strawberry Dream</h3>
+        <p>Fresh strawberries and cream layered to perfection.</p>
+        <span>$30</span>
+      </div>
+      <div class="cake-card">
+        <img src="https://images.unsplash.com/photo-1627308595229-7830a5c91f9f" alt="Vanilla Cake">
+        <h3>Vanilla Celebration</h3>
+        <p>Soft vanilla sponge with buttercream frosting.</p>
+        <span>$28</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORDER FORM -->
+  <section class="order" id="order">
+    <h2>Book Your Cake</h2>
+    <p>Fill out the form below to place your custom cake order.</p>
+
+    <form class="order-form">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Your Name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="you@example.com">
+
+      <label for="flavor">Choose a Cake Flavor:</label>
+      <select id="flavor" name="flavor" required>
+        <option value="">Select a flavor</option>
+        <option value="chocolate">Chocolate Delight</option>
+        <option value="strawberry">Strawberry Dream</option>
+        <option value="vanilla">Vanilla Celebration</option>
+      </select>
+
+      <label for="date">Pick-up / Delivery Date:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="message">Special Message on Cake:</label>
+      <input type="text" id="message" name="message" placeholder="Happy Birthday, etc.">
+
+      <button type="submit" class="btn">Submit Order</button>
+    </form>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 123 Sweet Street, Bake City</p>
+    <p>📞 (123) 456-7890</p>
+    <p>📧 hello@sugarblisscakes.com</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Sugar Bliss Cakes. Made with ❤️ by Dave Cabalan.</p>
+  </footer>
+</body>
+</html>
+
