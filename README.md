@@ -85,14 +85,14 @@
   <!-- CONTACT SECTION -->
   <section class="contact" id="contact">
     <h2>Contact Us</h2>
-    <p>📍 123 Sweet Street, Bake City</p>
-    <p>📞 (123) 456-7890</p>
-    <p>📧 hello@sugarblisscakes.com</p>
+    <p>📍 Brgy. Payapag Bacuag Surigao Del Norte</p>
+    <p>📞 09955727665</p>
+    <p>📧 eljiemonta.com</p>
   </section>
 
   <!-- FOOTER -->
   <footer>
-    <p>© 2025 Sugar Bliss Cakes. Made with ❤️ by Dave Cabalan.</p>
+    <p>© 2025 Sugar Bliss Cakes. Made with ❤️ by Monta Eljie.</p>
   </footer>
 </body>
 </html>
